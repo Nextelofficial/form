@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nextel Connect</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f6f8;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.container{
+    max-width:430px;
+    width:100%;
+}
+
+.steps{
+    display:flex;
+    justify-content:space-between;
+    color:#bbb;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.steps .active{
+    color:#005b46;
+    font-weight:bold;
+}
+
+.progress{
+    height:5px;
+    background:#ddd;
+    border-radius:30px;
+    margin-bottom:35px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.logo img{
+    width:65px;
+}
+
+.logo h1{
+    color:#005b46;
+    font-size:42px;
+    line-height:45px;
+}
+
+h2{
+    text-align:center;
+    color:#111827;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.description{
+    text-align:center;
+    color:#666;
+    line-height:1.7;
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+.card{
+    background:#fff;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    border-radius:15px;
+    background:#eef8f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    font-size:22px;
+    color:#111827;
+}
+
+.card p{
+    color:#888;
+    margin-top:5px;
+}
+
+.button{
+    display:block;
+    margin-top:35px;
+    text-decoration:none;
+    background:#005b46;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+    border-radius:18px;
+    font-size:28px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#007056;
+}
+
+.footer{
+    margin-top:25px;
+    text-align:center;
+    color:#888;
+    line-height:1.7;
+}
+
+.footer a{
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="steps">
+<span class="active">Welcome</span>
+<span>Your Info</span>
+<span>Review</span>
+</div>
+
+<div class="progress"></div>
+
+<div class="logo">
+<img src="logo.png" alt="Nextel Logo">
+<h1>Nextel<br>Connect</h1>
+</div>
+
+<h2>Welcome to Nextel Connect</h2>
+
+<p class="description">
+Your world, your network — a licensed virtual telecom operator with eSIM membership.
+Hold your eSIM, get rewarded for calls, sponsored messages, and saved brand contacts.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">📋</div>
+<h3>Track calls</h3>
+<p>Activity tracking</p>
+</div>
+
+<div class="card">
+<div class="icon">▶</div>
+<h3>Save brand contacts</h3>
+<p>Brand directory</p>
+</div>
+
+<div class="card">
+<div class="icon">📢</div>
+<h3>View sponsored messages</h3>
+<p>Brand messages</p>
+</div>
+
+<div class="card">
+<div class="icon">🔥</div>
+<h3>Daily streaks</h3>
+<p>Daily activity</p>
+</div>
+
+</div>
+
+<a class="button"
+href="https://YOUR_EXTERNAL_LINK_HERE"
+target="_blank">
+Get Started →
+</a>
+
+<div class="footer">
+By signing up, you agree to our
+<a href="#">Terms of Service</a>,
+<a href="#">Privacy Policy</a>, and
+<a href="#">Refund Policy</a>.
+</div>
+
+</div>
+
+</body>
+</html>
